@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home — Furnico</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">Furnico</div>
+      <nav class="main-nav" id="mainNav">
+        <a href="#">Sofas</a>
+        <a href="#">Beds</a>
+        <a href="#">Dining</a>
+        <a href="#">Study</a>
+        <a href="#">Outlet</a>
+      </nav>
+      <div class="actions">
+        <button class="icon-btn" id="cartBtn">Cart <span id="cartCount">0</span></button>
+        <button class="hamburger" id="menuBtn" aria-label="Toggle menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1>Beautiful furniture for every home</h1>
+          <p>Discover curated sofas, beds, dining sets and decor to transform your living space.</p>
+          <form class="search" onsubmit="return false">
+            <input type="search" placeholder="Search furniture, brands, styles" />
+            <button>Search</button>
+          </form>
+        </div>
+        <div class="hero-right">
+          <img src="assets/images/mid-century-sofa.jpg" alt="Mid-Century Sofa" loading="lazy"/>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories container">
+      <h2>Shop by Category</h2>
+      <div class="cats-grid">
+        <div class="cat">
+          <img src="https://images.unsplash.com/photo-1582582494707-5e41a5f0f9b3?auto=format&fit=crop&w=800&q=60" alt="Sofas" />
+          <div class="cat-label">Sofas</div>
+        </div>
+        <div class="cat">
+          <img src="https://images.unsplash.com/photo-1582582494700-14b6b0c5f6a8?auto=format&fit=crop&w=800&q=60" alt="Beds" />
+          <div class="cat-label">Beds</div>
+        </div>
+        <div class="cat">
+          <img src="https://images.unsplash.com/photo-1505691723518-36a2f1b6b1b6?auto=format&fit=crop&w=800&q=60" alt="Dining" />
+          <div class="cat-label">Dining</div>
+        </div>
+        <div class="cat">
+          <img src="https://images.unsplash.com/photo-1578894385097-0b2b4b5b2a4a?auto=format&fit=crop&w=800&q=60" alt="Study" />
+          <div class="cat-label">Study</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products container">
+      <h2>Featured Products</h2>
+      <div class="products-grid">
+        <article class="product-card">
+          <img src="assets/images/mid-century-sofa.jpg" alt="Mid-Century Sofa" loading="lazy" />
+          <div class="p-info">
+            <h3>Mid-Century Sofa</h3>
+            <p class="price">$899</p>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/images/comfy-armchair.jpg" alt="Comfy Armchair" loading="lazy" />
+          <div class="p-info">
+            <h3>Comfy Armchair</h3>
+            <p class="price">$249</p>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/images/dining-set.jpg" alt="Wood Dining Set" loading="lazy" />
+          <div class="p-info">
+            <h3>Wood Dining Set</h3>
+            <p class="price">$1,299</p>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/images/platform-bed.jpg" alt="Platform Bed" loading="lazy" />
+          <div class="p-info">
+            <h3>Platform Bed</h3>
+            <p class="price">$749</p>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/images/two-seater-image.jpg" alt="Two-seater Sofa" loading="lazy" />
+          <div class="p-info">
+            <h3>Two-seater Sofa</h3>
+            <p class="price">$699</p>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/images/study-desk.svg" alt="Study Desk Set" />
+          <div class="p-info">
+            <h3>Study Desk Set</h3>
+            <p class="price">$399</p>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/images/king-bed.svg" alt="King Size Bed" />
+          <div class="p-info">
+            <h3>King Size Bed</h3>
+            <p class="price">$1,049</p>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/images/lounge-sofa.svg" alt="Lounge Sofa" />
+          <div class="p-info">
+            <h3>Lounge Sofa</h3>
+            <p class="price">$1,199</p>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="foot-grid">
+        <div>
+          <h4>Furnico</h4>
+          <p>Quality furniture curated for modern homes.</p>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <div class="socials">Instagram · Pinterest · Facebook</div>
+        </div>
+      </div>
+      <div class="copyright">© 2025 Furnico. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
